@@ -1,0 +1,11 @@
+.hlx-sidekick {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgb(44, 44, 44);
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    z-index: 1000000;
+}

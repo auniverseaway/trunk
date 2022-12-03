@@ -1,0 +1,28 @@
+{
+    "name": "Trunk",
+    "description": "Easily follow Mastodon accounts",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/images/trunk-logo-16.png",
+        "32": "/images/trunk-logo-32.png",
+        "48": "/images/trunk-logo-48.png",
+        "128": "/images/trunk-logo-128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/trunk-logo-16.png",
+            "32": "/images/trunk-logo-32.png",
+            "48": "/images/trunk-logo-48.png",
+            "128": "/images/trunk-logo-128.png"
+        }
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ]
+}
